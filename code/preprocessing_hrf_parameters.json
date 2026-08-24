@@ -1,0 +1,51 @@
+{
+  "pipeline": [
+    "enPruneChannels",
+    "hmrIntensity2OD",
+    "hmrMotionArtifactByChannel",
+    "hmrMotionCorrectSpline",
+    "hmrBandpassFilt",
+    "hmrOD2Conc",
+    "hmrBlockAvg"
+  ],
+  "enPruneChannels": {
+    "dRange": [
+      0.01,
+      1750.0
+    ],
+    "SNRthresh": 2.0,
+    "SDrange_mm": [
+      0.0,
+      45.0
+    ],
+    "reset": 1
+  },
+  "hmrMotionArtifactByChannel": {
+    "tMotion_s": 0.5,
+    "tMask_s": 1.0,
+    "STDEVthresh": 20.0,
+    "AMPthresh": 0.5
+  },
+  "hmrMotionCorrectSpline": {
+    "p": 0.99,
+    "turnon": 1
+  },
+  "hmrBandpassFilt": {
+    "hpf_hz": 0.01,
+    "lpf_hz": 0.1
+  },
+  "hmrOD2Conc": {
+    "ppf": [
+      6.0,
+      6.0,
+      6.0
+    ]
+  },
+  "hmrBlockAvg": {
+    "trange_s": [
+      -5.0,
+      35.0
+    ]
+  },
+  "Homer3Version": "1.28.10"
+}
