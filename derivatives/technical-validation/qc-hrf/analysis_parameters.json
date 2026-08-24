@@ -1,0 +1,47 @@
+{
+  "source_data": "released native .nirs recordings in sourcedata/",
+  "processed_input": "Homer output generated from sourcedata/ using code/preprocessing_hrf_parameters.json",
+  "expected_params": {
+    "enPruneChannels_dRange": [
+      0.01,
+      1750.0
+    ],
+    "enPruneChannels_SNRthresh": 2.0,
+    "enPruneChannels_SDrange": [
+      0.0,
+      45.0
+    ],
+    "enPruneChannels_reset": 1.0,
+    "hmrMotionArtifactByChannel_tMotion": 0.5,
+    "hmrMotionArtifactByChannel_tMask": 1.0,
+    "hmrMotionArtifactByChannel_STDEVthresh": 20.0,
+    "hmrMotionArtifactByChannel_AMPthresh": 0.5,
+    "hmrMotionCorrectSpline_p": 0.99,
+    "hmrMotionCorrectSpline_turnon": 1.0,
+    "hmrBandpassFilt_hpf": 0.01,
+    "hmrBandpassFilt_lpf": 0.1,
+    "hmrOD2Conc_ppf": [
+      6.0,
+      6.0,
+      6.0
+    ],
+    "hmrBlockAvg_trange": [
+      -5.0,
+      35.0
+    ]
+  },
+  "channel_motion_clean_threshold": 0.8,
+  "trial_clean_threshold": 0.8,
+  "trial_duration_seconds": 20.0,
+  "epoch_window_seconds": [
+    -5.0,
+    35.0
+  ],
+  "baseline_window_seconds": [
+    -5.0,
+    0.0
+  ],
+  "hrf_units": "uM, procResult.dc multiplied by 1e6",
+  "channel_exclusion_definition": "excluded if inactive in enPruneChannels/MeasListAct or tIncChAuto clean fraction < 0.80",
+  "trial_exclusion_definition": "excluded if mean tIncChAuto clean fraction across enPrune-retained channels within the 20 s trial window < 0.80"
+}

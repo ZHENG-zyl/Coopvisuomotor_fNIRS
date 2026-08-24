@@ -1,0 +1,31 @@
+{
+  "Name": "Coopvisuomotor-fNIRS technical-validation derivatives",
+  "Version": "1.0.0",
+  "SourceDataset": "../../dataset_description.json",
+  "GeneratedBy": [
+    {
+      "Name": "Coopvisuomotor-fNIRS technical-validation scripts",
+      "Version": "1.0.0",
+      "Code": "../../code"
+    },
+    {
+      "Name": "Homer3",
+      "Version": "1.28.10",
+      "Description": "Preprocessing used to generate the Technical Validation outputs"
+    }
+  ],
+  "DatasetType": "derivative",
+  "Authors": [
+    "Yilei Zheng",
+    "Kai Tian",
+    "Boxue Shan",
+    "Teng Han",
+    "Bohao Tian",
+    "Quanying Liu",
+    "Xinke Shen",
+    "Cong Peng",
+    "Peng Su",
+    "Dangxiao Wang"
+  ],
+  "SourceDatasetDOI": "10.57760/sciencedb.46254"
+}
