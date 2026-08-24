@@ -1,0 +1,35 @@
+{
+  "pair_index": {
+    "Description": "Homologous cross-participant channel-pair index used in WTC analysis."
+  },
+  "participant_a_channel": {
+    "Description": "Global channel index for Participant A."
+  },
+  "participant_b_channel": {
+    "Description": "Global channel index for Participant B."
+  },
+  "participant_a_source_detector": {
+    "Description": "Participant A source-detector pair."
+  },
+  "participant_b_source_detector": {
+    "Description": "Participant B source-detector pair."
+  },
+  "broad_region": {
+    "Description": "Broad montage region; anatomical_label reports the AtlasViewer result."
+  },
+  "mni_x": {
+    "Description": "MNI x coordinate.",
+    "Units": "mm"
+  },
+  "mni_y": {
+    "Description": "MNI y coordinate.",
+    "Units": "mm"
+  },
+  "mni_z": {
+    "Description": "MNI z coordinate.",
+    "Units": "mm"
+  },
+  "anatomical_label": {
+    "Description": "AtlasViewer anatomical label."
+  }
+}

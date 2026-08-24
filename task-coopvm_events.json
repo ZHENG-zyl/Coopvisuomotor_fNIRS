@@ -1,0 +1,44 @@
+{
+  "Description": "Long-format table of all released coloring trials. Onsets are taken from the fNIRS trial-start marker; duration is the fixed 20-s coloring period; completion_time_s is the behavioral completion time.",
+  "onset": {
+    "Description": "Trial onset relative to fNIRS recording start.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Fixed active coloring period.",
+    "Units": "s"
+  },
+  "completion_time_s": {
+    "Description": "Behavioral completion time within the 20-s coloring period.",
+    "Units": "s"
+  },
+  "trial_index": {
+    "Description": "Released within-run trial number (1-15)."
+  },
+  "trial_type": {
+    "Description": "Event category.",
+    "Levels": {
+      "coloring": "Active cooperative coloring trial."
+    }
+  },
+  "cooperation_mode": {
+    "Description": "Division-of-labor condition.",
+    "Levels": {
+      "leader-follower": "A controlled position and B controlled force.",
+      "egalitarian": "A controlled X-axis position/force and B controlled Y-axis position/force."
+    }
+  },
+  "difficulty": {
+    "Description": "Pattern complexity.",
+    "Levels": {
+      "easy": "Carrot pattern.",
+      "hard": "Wave pattern."
+    }
+  },
+  "stimulus": {
+    "Description": "Target pattern."
+  },
+  "timing_source": {
+    "Description": "Provenance of event timing."
+  }
+}

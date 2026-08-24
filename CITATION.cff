@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying data descriptor and this dataset."
+title: "A dyadic fNIRS hyperscanning dataset for cooperative visuomotor control with haptic interaction"
+type: dataset
+version: 1.0.0
+date-released: 2026-08-04
+license: CC-BY-4.0
+doi: 10.57760/sciencedb.46254
+url: "https://doi.org/10.57760/sciencedb.46254"
+authors:
+  - given-names: Yilei
+    family-names: Zheng
+  - given-names: Kai
+    family-names: Tian
+  - given-names: Boxue
+    family-names: Shan
+  - given-names: Teng
+    family-names: Han
+  - given-names: Bohao
+    family-names: Tian
+  - given-names: Quanying
+    family-names: Liu
+  - given-names: Xinke
+    family-names: Shen
+  - given-names: Cong
+    family-names: Peng
+  - given-names: Peng
+    family-names: Su
+  - given-names: Dangxiao
+    family-names: Wang

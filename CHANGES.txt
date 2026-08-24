@@ -1,0 +1,8 @@
+# Changelog
+
+## 1.0.0 - 2026-08-04
+
+- Finalized the dyad-level release structure for 32 dyads and four runs per dyad.
+- Added technical-validation code, task-interface images, and machine-readable result tables.
+- Aligned author, funding, citation, DOI, and dataset-type metadata with the accompanying descriptor.
+- Added complete sidecars for run, channel-pair, measurement-list, and stimulus tables.

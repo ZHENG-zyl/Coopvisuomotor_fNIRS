@@ -1,0 +1,27 @@
+pair_index	participant_a_channel	participant_b_channel	participant_a_source_detector	participant_b_source_detector	broad_region	mni_x	mni_y	mni_z	anatomical_label
+1	1	27	S1-D1	S13-D12	left sensorimotor and adjacent inferior parietal region	-51	-6	37	Left precentral gyrus
+2	2	28	S1-D3	S13-D14	left sensorimotor and adjacent inferior parietal region	-54	-2	49	Left postcentral gyrus
+3	3	29	S2-D1	S14-D12	left sensorimotor and adjacent inferior parietal region	-52	-24	43	Left inferior parietal lobule
+4	4	30	S2-D3	S14-D14	left sensorimotor and adjacent inferior parietal region	-55	-24	54	Left postcentral gyrus
+5	5	31	S3-D2	S15-D13	left prefrontal cortex	-31	45	2	Left middle frontal gyrus
+6	6	32	S3-D4	S15-D15	left prefrontal cortex	-30	64	-1	Left superior frontal gyrus
+7	7	33	S4-D3	S16-D14	left sensorimotor and adjacent inferior parietal region	-32	-3	43	Left precentral gyrus
+8	8	34	S4-D5	S16-D16	left sensorimotor and adjacent inferior parietal region	-24	-2	51	Left precentral gyrus
+9	9	35	S5-D3	S17-D14	left sensorimotor and adjacent inferior parietal region	-40	-23	55	Left postcentral gyrus
+10	10	36	S5-D5	S17-D16	left sensorimotor and adjacent inferior parietal region	-25	-20	55	Left precentral gyrus
+11	11	37	S6-D2	S18-D13	left prefrontal cortex	-27	52	13	Left superior frontal gyrus
+12	12	38	S6-D4	S18-D15	left prefrontal cortex	-14	51	4	Left medial superior frontal gyrus
+13	13	39	S7-D6	S19-D17	right prefrontal cortex	26	55	6	Right superior frontal gyrus
+14	14	40	S7-D9	S19-D18	right prefrontal cortex	27	54	1	Right superior frontal gyrus
+15	15	43	S8-D7	S21-D19	right temporoparietal and adjacent postcentral region	44	-32	47	Right inferior parietal lobule
+16	16	44	S8-D8	S21-D20	right temporoparietal and adjacent postcentral region	50	-57	52	Right inferior parietal lobule
+17	17	45	S8-D10	S21-D21	right temporoparietal and adjacent postcentral region	48	-45	38	Right supramarginal gyrus
+18	18	41	S9-D6	S20-D17	right prefrontal cortex	37	52	7	Right middle frontal gyrus
+19	19	42	S9-D9	S20-D18	right prefrontal cortex	41	47	0	Right middle frontal gyrus, orbital part
+20	20	46	S10-D7	S22-D19	right temporoparietal and adjacent postcentral region	44	-17	42	Right postcentral gyrus
+21	21	47	S10-D10	S22-D21	right temporoparietal and adjacent postcentral region	69	-32	38	Right supramarginal gyrus
+22	22	48	S11-D8	S23-D20	right temporoparietal and adjacent postcentral region	55	-70	40	Right angular gyrus
+23	23	49	S11-D10	S23-D21	right temporoparietal and adjacent postcentral region	61	-53	30	Right supramarginal gyrus
+24	24	50	S11-D11	S23-D22	right temporoparietal and adjacent postcentral region	48	-59	17	Right middle temporal gyrus
+25	25	51	S12-D10	S24-D21	right temporoparietal and adjacent postcentral region	52	-43	20	Right middle temporal gyrus
+26	26	52	S12-D11	S24-D22	right temporoparietal and adjacent postcentral region	56	-45	7	Right middle temporal gyrus

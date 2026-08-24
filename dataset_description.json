@@ -1,0 +1,39 @@
+{
+  "Name": "A dyadic fNIRS hyperscanning dataset for cooperative visuomotor control with haptic interaction",
+  "Version": "1.0.0",
+  "DatasetType": "raw",
+  "DataOrganization": "SNIRF-based, BIDS-inspired dyad-level layout",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Yilei Zheng",
+    "Kai Tian",
+    "Boxue Shan",
+    "Teng Han",
+    "Bohao Tian",
+    "Quanying Liu",
+    "Xinke Shen",
+    "Cong Peng",
+    "Peng Su",
+    "Dangxiao Wang"
+  ],
+  "Funding": [
+    "Open Project Program of the State Key Laboratory of Virtual Reality Technology and Systems, Beihang University (VRLAB2026B12)",
+    "R&D Program of the Beijing Municipal Education Commission (KM202411232026)",
+    "Beijing Natural Science Foundation (L233035)",
+    "Noncommunicable Chronic Diseases-National Science and Technology Major Project (2026ZD0554600)"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Homer3",
+      "Description": "Conversion of native NIRS recordings to SNIRF; separate preprocessing for Technical Validation",
+      "Version": "1.28.10"
+    },
+    {
+      "Name": "Coopvisuomotor-fNIRS technical-validation scripts",
+      "Version": "1.0.0",
+      "Description": "Behavioral, QC/HRF, and inter-brain WTC analyses"
+    }
+  ],
+  "DatasetDOI": "10.57760/sciencedb.46254",
+  "HowToAcknowledge": "Cite the accompanying Scientific Data descriptor and the dataset DOI: https://doi.org/10.57760/sciencedb.46254"
+}

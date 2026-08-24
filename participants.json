@@ -1,0 +1,32 @@
+{
+  "participant_id": {
+    "Description": "Anonymized individual identifier nested conceptually within a dyad (for example, dyad-001A)."
+  },
+  "dyad_id": {
+    "Description": "Anonymized dyad identifier."
+  },
+  "member": {
+    "Description": "Member label within a dyad.",
+    "Levels": {
+      "A": "Participant A",
+      "B": "Participant B"
+    }
+  },
+  "age": {
+    "Description": "Age at data collection.",
+    "Units": "years"
+  },
+  "gender": {
+    "Description": "Self-reported gender.",
+    "Levels": {
+      "male": "Male",
+      "female": "Female"
+    }
+  },
+  "handedness": {
+    "Description": "Self-reported handedness."
+  },
+  "vision": {
+    "Description": "Vision status during the experiment."
+  }
+}

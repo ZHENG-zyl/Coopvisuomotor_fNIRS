@@ -1,0 +1,32 @@
+{
+  "dyad_id": {
+    "Description": "Anonymized dyad identifier."
+  },
+  "participant_a": {
+    "Description": "Participant A identifier."
+  },
+  "participant_b": {
+    "Description": "Participant B identifier."
+  },
+  "dyad_type": {
+    "Description": "Gender composition of the dyad.",
+    "Levels": {
+      "male-male": "Both members are male.",
+      "female-female": "Both members are female."
+    }
+  },
+  "relationship": {
+    "Description": "Pre-existing relationship.",
+    "Levels": {
+      "friends": "Friends before the experiment.",
+      "strangers": "Unacquainted before the experiment."
+    }
+  },
+  "age_difference_years": {
+    "Description": "Absolute age difference between members.",
+    "Units": "years"
+  },
+  "runs": {
+    "Description": "Available run labels separated by semicolons."
+  }
+}
